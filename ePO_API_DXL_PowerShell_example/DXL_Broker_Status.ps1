@@ -8,7 +8,7 @@ $c_password_base64 = ConvertTo-SecureString $c_password -AsPlainText -Force
 $c_creds = New-Object System.Management.Automation.PSCredential ($c_username, $c_password_base64) 
 
 # Point to your ePO server - the default console port is 8443
-$l_epo_address = "https://epo003:50443"  
+$l_epo_address = "https://<epo>:8443"  
 
 $g_working_dir = $PSScriptRoot
 
