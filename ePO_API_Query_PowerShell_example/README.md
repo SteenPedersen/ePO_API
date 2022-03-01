@@ -2,6 +2,7 @@
 Use PowerShell to extract data using queries in the ePO API.
 
 Example:
+```
 EPOLeafNode.AutoID                                       : 4
 EPOLeafNode.NodeName                                     : EPO002
 EPOComputerProperties.DomainName                         : MCTEST
@@ -37,3 +38,4 @@ EPOProdPropsView_THREATPREVENTION.productversion         : 10.7.0.3299
 EPOProdPropsView_TIECLIENTMETA.productversion            : 10.7.0.3437
 EPOProdPropsView_FIREWALL.productversion                 :
 EPOProdPropsView_WEBCONTROL.productversion               :
+```
