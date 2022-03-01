@@ -7,7 +7,7 @@ EPOLeafNode.AutoID                                       : 4
 EPOLeafNode.NodeName                                     : EPO002
 EPOComputerProperties.DomainName                         : MCTEST
 EPOBranchNode.NodeTextPath2                              : \
-EPOComputerProperties.IPV6                               : 0:0:0:0:0:FFFF:A0A:ADE
+EPOComputerProperties.IPAddress                          : 10.10.10.222
 EPOLeafNode.LastUpdate                                   : 2022-02-20T17:43:04+01:00
 AM_CustomProps.bOASEnabled                               : True
 AM_CustomProps.OASbComplianceStatus                      : 1
