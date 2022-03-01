@@ -1,5 +1,19 @@
 # ePO_Query
-Use PowerShell to extract data using queries in the ePO API.
+Use PowerShell to extract data from ePO using queries composed in the ePO API.
+This example is pulling many properties related to compliance for ENS TP, ATP, FW and WC. 
+The “select” has a where/filter for all systems which has communicated in the last 1 week. The filter is based on number of milliseconds in a week.
+
+If you need examples of selected statements and what can be extracted from ePO:
+-	Compose a query in ePO which includes the properties and the filters
+-	Save the query in ePO
+-	Then select the query and choose “Export Queries” 
+-	Review the XML file 
+o  	see the name of the properties
+o	see the where statement 
+
+
+The Output is generated in JSON and then converted into PowerShell object 
+
 
 Example:
 ```
