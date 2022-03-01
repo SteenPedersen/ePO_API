@@ -8,8 +8,8 @@ If you need examples of selected statements and what can be extracted from ePO:
 -	Save the query in ePO
 -	Then select the query and choose “Export Queries” 
 -	Review the XML file 
-o  	see the name of the properties
-o	see the where statement 
+- - see the name of the properties
+- - see the where statement 
 
 
 The Output is generated in JSON and then converted into PowerShell object 
